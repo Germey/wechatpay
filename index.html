@@ -1,0 +1,110 @@
+
+<style type="text/css">
+*{margin:0;padding:0;list-style:none;}
+body{background:#fff;font-family:"Microsoft Yahei"}
+a{text-decoration:none;}
+img{border:none;width:100%;}
+
+/* accordion */
+.accordion{width:100%;height:320px;overflow:hidden;margin:0px auto;max-width:900px;}
+.accordion ul{max-width:100%}
+.accordion li{
+	display:block;width:20%;height:90px;overflow:hidden;position:relative;float:left;
+	background:rgba(255,255,255,0.1);
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	-ms-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s;
+}
+.accordion li img{display:block;}
+.accordion ul:hover li{width:18%;}
+.accordion ul li:hover{width:28%;}
+.accordion .title{position:absolute;left:0;bottom:0;width:100%;background:rgba(0,0,0,0.5);}
+.accordion .title a{display:block;color:#fff;font-size:16px;padding:10px;}
+
+@media (max-width:430px){
+	.accordion{height:250px;}
+	.accordion li{height:150px;}
+	.describe{top:60px;}
+	.describe img{height:90px;}
+}
+@media (max-width: 570px) and (min-width:431px){
+	.accordion{height:320px;}
+	.accordion li{height:180px;}
+	.describe{top:70px;}
+	.describe img{height:110px;}
+}
+@media (max-width: 740px) and (min-width:571px){
+	.accordion{height:320px;}
+	.accordion li{height:243px;}
+	.describe{top:112px;}
+	.describe img{height:130px;}
+}
+@media (max-width: 900px) and (min-width:741px){
+	.accordion{height:320px;}
+	.accordion li{height:250px;}
+	.describe{top:90px;}
+	.describe img{height:160px;}
+}
+@media (min-width:901px){
+	.accordion{height:320px;}
+	.accordion li{height:250px;}
+	.describe{top:90px;}
+	.describe img{height:160px;}
+}
+.describe{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	max-width:900px;
+	z-index:-1;
+}
+.bg{
+	width:100%;
+	max-width:900px;
+	min-height:130px;
+	background-color:#87db79;
+	position:absolute;
+	top:0px;
+	z-index:-2;
+}
+.weixin{
+	position:relative;
+	max-width:900px;
+	margin:0 auto;
+}
+</style>
+
+
+<div class="weixin">
+	<div class='accordion'>
+		<ul>
+			<li>
+				<div class='title'><a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/1.png">&#165;&nbsp;1</a></div>
+				<a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/1.png"><img src='http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/1.png'></a>
+			</li>
+			<li>
+				<div class='title'><a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/5.png">&#165;&nbsp;5</a></div>
+				<a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/5.png"><img src='http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/5.png'></a>
+			</li>
+			<li>
+				<div class='title'><a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/10.png">&#165;&nbsp;10</a></div>
+				<a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/10.png"><img src='http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/10.png'></a>
+			</li>
+			<li>
+				<div class='title'><a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/20.png">&#165;&nbsp;20</a></div>
+				<a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/20.png"><img src='http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/20.png'></a>
+			</li>
+			<li>
+				<div class='title'><a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/any.png">&#165;&nbsp;ANY</a></div>
+				<a href="http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/any.png"><img src='http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/any.png'></a>
+			</li>
+		</ul>
+		<div class ="bg">
+		</div>
+		<div class = "describe">
+			<img src = "http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/weixin.png" alt="微信支付"/>
+		</div>
+	</div>
+</div>
